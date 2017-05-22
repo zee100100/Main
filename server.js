@@ -9,7 +9,7 @@ GitHub username: zee100100
 
   var fs = require("fs");
   var http = require("http");
-  var port = process.env.port || 3000;
+  var port = process.env.PORT || 3000;
 
   function requestHandler (req, res){
 
